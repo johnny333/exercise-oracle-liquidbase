@@ -1,0 +1,259 @@
+databaseChangeLog:
+  - preConditions:
+    - runningAs:
+        username: KOLECKIJ
+
+  - changeSet:
+      id: 1
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v1_*.sql
+  - changeSet:
+      id: 2
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v2_*.sql
+  - changeSet:
+      id: 3
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v3_*.sql
+  - changeSet:
+      id: 4
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v4_*.sql
+  - changeSet:
+      id: 5
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v5_*.sql
+  - changeSet:
+      id: 6
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v6_*.sql
+  - changeSet:
+      id: 7
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v7_*.sql
+
+  - changeSet:
+      id: 8
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v8_*.sql
+  - changeSet:
+      id: 9
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v9_*.sql
+  - changeSet:
+      id: 10
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v10_*.sql
+  - changeSet:
+      id: 11
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v11_*.sql
+  - changeSet:
+      id: 12
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v12_*.sql
+  - changeSet:
+      id: 13
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v13_*.sql
+
+  - changeSet:
+      id: 14
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v14_*.sql
+
+  - changeSet:
+      id: 15
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v15_*.sql
+
+  - changeSet:
+      id: 16
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v16_*.sql
+  - changeSet:
+      id: 17
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v17_*.sql
+  - changeSet:
+      id: 18
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v18_*.sql
+  - changeSet:
+      id: 19
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v19_*.sql
+  - changeSet:
+      id: 20
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v20_*.sql
+  - changeSet:
+      id: 21
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v21_*.sql
+  - changeSet:
+      id: 22
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v22_*.sql
+  - changeSet:
+      id: 23
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v23_*.sql
+  - changeSet:
+      id: 24
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v24_*.sql
+  - changeSet:
+      id: 25
+      author: KOLECKIJ
+      sqlFile:
+        encoding: utf8
+        endDelimiter: /
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
+        path: db/migration/v25_*.sql

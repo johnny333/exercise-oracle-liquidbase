@@ -1,0 +1,27 @@
+docker:
+  oracle:
+    host: 213.184.8.44
+    port: 1521
+    db-name: orac
+    user: koleckij
+    password: webshopdb
+
+#jdbc:oracle:thin:@213.184.8.44:1521:orac
+spring:
+  devtools.restart.exclude: static/**,public/**,client/**
+  jpa:
+      show_sql: false
+      hibernate:
+        ddl-auto: validate
+  datasource:
+     url: jdbc:oracle:thin:@213.184.8.44:1521:orac
+     driver-class-name: oracle.jdbc.OracleDriver
+     username: koleckij
+     password: jakub
+
+server:
+  port: 8080
+logging:
+  file: target/workshop-docker.log
+
+liquibase.change-log: classpath:db/changelog/liquibase-changelog.yaml
